@@ -1,0 +1,41 @@
+// Color Pallete
+$color_black: #000000;
+$color_white: #ffffff;
+$color_offblack: #333333;
+$color_offwhite: #f7f7f7;
+$color_secondary: #737075;
+
+// Social Media Colors
+$color_facebook: #3b5998;
+$color_twitter: #55acee;
+$color_google: #dd4b39;
+$color_youtube: #bb0000;
+$color_linkedin: #007bb5;
+$color_instagram: #125688;
+$color_pinterest: #cb2027;
+$color_snapchat: #fffc00;
+$color_github: #000000;
+$color_reddit: #ff4500;
+
+// Site wide stylings
+
+// Sticky footer
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
+nav {
+  .menu-item {
+    color: $color_white;
+  }
+}
